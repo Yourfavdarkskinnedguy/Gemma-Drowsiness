@@ -4,9 +4,11 @@
 
 # Gemma Drowsiness – On‑Device AI Driver Fatigue Alert
 
+
+**Live Demo:** [Download the APK](https://github.com/Yourfavdarkskinnedguy/Gemma-Drowsiness/releases/download/v1.0.0/app-release.apk)
+
 [![Flutter](https://img.shields.io/badge/Flutter-3.27+-blue.svg)](https://flutter.dev)
 [![Gemma](https://img.shields.io/badge/Gemma-4--E2B--it-orange.svg)](https://ai.google.dev/gemma)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Appetize-blue)](https://appetize.io/app/b_b3pzatevvwn2wf2iuhfd2vtjyi)
 
 A real‑time driver drowsiness detection system that runs **completely offline** on a smartphone.  
 It tracks the driver’s eyes, computes fatigue metrics, and delivers personalised wake‑up alerts with **Gemma 4 generated voice messages** spoken through the phone’s speaker.
