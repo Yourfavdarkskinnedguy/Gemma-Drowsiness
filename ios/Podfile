@@ -1,0 +1,64 @@
+# ios/Podfile
+# flutter_gemma 0.13.x requires iOS 16.0 (MediaPipe GenAI)
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '16.0'
+
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug'   => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated = File.expand_path(
+    File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__
+  )
+  unless File.exist?(generated)
+    raise "#{generated} missing. Run: flutter pub get"
+  end
+  File.foreach(generated) do |line|
+    match = line.match(/FLUTTER_ROOT=(.*)/)
+    return match[1].strip if match
+  end
+  raise 'FLUTTER_ROOT not found in Generated.xcconfig'
+end
+
+require File.expand_path(
+  File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root
+)
+
+flutter_ios_podfile_setup
+
+target 'Runner' do
+  # MediaPipeTasksGenAI + MediaPipeTasksGenAIC are static XCFrameworks.
+  # Static linkage throughout prevents the CocoaPods
+  # "transitive static dependencies" error.
+  use_frameworks! :linkage => :static
+
+  use_modular_headers!
+
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_ios_build_settings(target)
+
+    target.build_configurations.each do |config|
+      # flutter_gemma 0.13.x requires iOS 16.0
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+      # Suppress Swift 6 concurrency warnings from upstream pods
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+      # Required for stable ABI with static Google/MediaPipe frameworks
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      config.build_settings['CLANG_CXX_LIBRARY'] = 'libc++'
+    end
+  end
+end

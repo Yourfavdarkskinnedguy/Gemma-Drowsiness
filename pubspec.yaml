@@ -1,0 +1,37 @@
+name: drowsiness_detector
+description: A driver drowsiness detection app using Gemma 4 E2B.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  camera: ^0.10.6
+#  audioplayers: ^6.1.0
+  google_mlkit_face_detection: ^0.13.2
+  google_mlkit_commons: ^0.11.1       # explicit — used in camera_screen.dart
+  flutter_gemma: ^0.13.2
+  permission_handler: ^11.4.0
+  flutter_tts: ^4.2.5
+  sqlite3_flutter_libs: ^0.5.24       # fixes SQLite native build error
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/test_images/drowsy/
+    - assets/test_images/non_drowsy/
+
+    - assets/audio/fallback/alert_1.mp3
+    - assets/audio/fallback/alert_2.mp3
+    - assets/audio/fallback/alert_3.mp3
+  uses-material-design: true
+  # No assets — model downloaded at runtime

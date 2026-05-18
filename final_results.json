@@ -1,0 +1,362 @@
+[
+  {
+    "file_name": "driver_full_sleep2_f10.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.959397857839411,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Pull over, take a break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f100.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9042534882372076,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Stretch, coffee, drive safe!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f105.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.922841137918559,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Stop now, get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f110.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9353102261234414,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Pull over, refresh, drive slow!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f115.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.8306123776869341,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Pull over, take a break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f120.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.8787421015175906,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Stretch, coffee, drive safe!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f125.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9101319628683003,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Stop now, get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f130.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9269450680031018,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "fatigue signs",
+    "gemma_action": "Pull over, refresh, drive slow!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f135.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9258079853924838,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a quick break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f140.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9290860674598,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Stretch and refresh your eyes!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f15.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9429083016785709,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Pull over and get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f20.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9444379088824446,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Power down and recharge your mind!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f25.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9665092338215221,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick stretch, buddy!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f30.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9671805988658558,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a short, refreshing break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f35.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9650034037503329,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Eyes off the road, take a rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f40.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9608803499828685,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick coffee break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f45.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9589776450937445,
+    "gemma_risk": "LOW",
+    "gemma_reason": "",
+    "gemma_action": "",
+    "is_correct": false
+  },
+  {
+    "file_name": "driver_full_sleep2_f50.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9485043693672527,
+    "gemma_risk": "LOW",
+    "gemma_reason": "",
+    "gemma_action": "",
+    "is_correct": false
+  },
+  {
+    "file_name": "driver_full_sleep2_f55.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9516042106530883,
+    "gemma_risk": "LOW",
+    "gemma_reason": "",
+    "gemma_action": "",
+    "is_correct": false
+  },
+  {
+    "file_name": "driver_full_sleep2_f60.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9523067026178945,
+    "gemma_risk": "LOW",
+    "gemma_reason": "",
+    "gemma_action": "",
+    "is_correct": false
+  },
+  {
+    "file_name": "driver_full_sleep2_f65.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9647963047027588,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a quick break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f70.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9653845835815776,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Stretch and refresh your eyes!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f75.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.8927111258560961,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Pull over and get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f80.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9188121389055794,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Power down and recharge your mind!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep2_f85.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.8701829260045832,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick stretch, buddy!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f10.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.8893777836452831,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a short, refreshing break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f100.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9208768300034783,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Eyes off the road, take a rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f105.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9431747627664696,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick coffee break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f110.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.983164830641313,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a quick break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f15.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9636377610943534,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Stretch and refresh your eyes!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f20.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9495149117979136,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Pull over and get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f25.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9405023510279981,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Power down and recharge your mind!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f30.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9374738064679232,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick stretch, buddy!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f35.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9439931213855743,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a short, refreshing break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f40.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9371518063274297,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Eyes off the road, take a rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f45.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9421885138140483,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Time for a quick coffee break!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f5.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.957037784836509,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Take a quick break now!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f50.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9590403871102766,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Stretch and refresh your eyes!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f55.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9523764461278915,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Pull over and get some rest!",
+    "is_correct": true
+  },
+  {
+    "file_name": "driver_full_sleep3_f60.jpg",
+    "expected_label": "Drowsy",
+    "ecr": 0.9460857312923128,
+    "gemma_risk": "HIGH",
+    "gemma_reason": "Fatigue signs",
+    "gemma_action": "Power down and recharge your mind!",
+    "is_correct": true
+  }
+]
