@@ -4,8 +4,9 @@
 
 # Gemma Drowsiness – On‑Device AI Driver Fatigue Alert
 
-
-**Live Demo:** [Download the APK](https://github.com/Yourfavdarkskinnedguy/Gemma-Drowsiness/releases/download/v1.0.0/app-release.apk)
+<h1 align="center">
+  <a href="https://github.com/Yourfavdarkskinnedguy/Gemma-Drowsiness/releases/download/v1.0.0/app-release.apk">📲 LIVE DEMO – DOWNLOAD APK </a>
+</h1>
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.27+-blue.svg)](https://flutter.dev)
 [![Gemma](https://img.shields.io/badge/Gemma-4--E2B--it-orange.svg)](https://ai.google.dev/gemma)
